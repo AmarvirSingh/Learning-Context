@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  padding: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: red;
+}
+.title {
+  color: Red;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50vw;
+}
+li {
+  padding: 10px;
+  font-size: 1.5rem;
+  list-style: none;
+  gap: 10px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
